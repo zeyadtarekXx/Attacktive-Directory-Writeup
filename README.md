@@ -1,0 +1,3 @@
+# Attacktive-Directory-Writeup
+Solving "ATTACKTIVE DIRECTORY": A Step-by-Step Walkthrough of a Vulnerable Machine on TryHackMe
+Welcome to this comprehensive writeup detailing the successful exploitation of " ATTACKTIVE DIRECTORY" a vulnerable machine hosted on Tryhackme . In this walkthrough, we will delve into the intricate process of uncovering and exploiting various weaknesses to gain full control of the machine. By sharing my thought process and the tools utilized throughout the journey, this writeup aims not only to document my achievements but also to demonstrate the valuable insights and skills I gained in the process. Let's begin the journey of unraveling the secrets hidden within "ATTRACTIVE DIRECTORY"!
