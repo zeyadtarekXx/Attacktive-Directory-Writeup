@@ -145,6 +145,11 @@ Submit the flags for each user account. Which are located on each user's desktop
 **Firstly** we use must login as an Administrator which will be done by passing Administrator account’s hash to log in by passing the hash method via ```evilwinrm``` tool, we’ll be Administrator user on the system.
 
 ``` evil-winrm -i <target ip> -u Administrator -H 0e0363213e37b94221497260b0bcb4fc ```
+**OR** there is another method by using ```psexex.py``` from ```impact tools``` 
+
+![2023-07-26 12_51_43-Window](https://github.com/zeyadtarekXx/Attractive-Directory-Writeup/assets/61972622/0de1722d-6ec7-4e91-8c32-de3157524d88)
+
+BUT ether way u will eventually reach the same goal
 
 Then **FINALLY** by navigating through the Desktops of the users we will capture the Flags and the MAchine will be solved !!
 
