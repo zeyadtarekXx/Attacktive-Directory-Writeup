@@ -21,9 +21,9 @@ After connecting to this VPN leave this tap opened and open a new tap to start s
 In this step, he wants you to install some helping tools like **impacket**, **Bloodhound**, and **Neo4j**
 By simply running these commands
 
-> git clone https://github.com/SecureAuthCorp/impacket.git /opt/impacket
->> pip3 install -r /opt/impacket/requirements.txt
->>> cd /opt/impacket/ && python3 ./setup.py install
+> ```$ git clone https://github.com/SecureAuthCorp/impacket.git /opt/impacket```
+>> ```$ pip3 install -r /opt/impacket/requirements.txt```
+>>> ```$ cd /opt/impacket/ && python3 ./setup.py install```
 
 IF YOU ARE USING ON ATTACKBOX U ARE READY TO GO !
 
@@ -33,7 +33,8 @@ To begin our reconnaissance process, we kick off with a fundamental step called 
 As we delve deeper into the challenge, we must recognize that relying solely on Nmap might not provide a comprehensive picture. Thus, to ensure a more thorough enumeration, we will complement our initial Nmap scan with other specialized utilities designed to scrutinize the services running on the target device. By adopting this holistic approach, we can effectively uncover additional information and maximize our enumeration potential.
 
 To run the **nmap scann** we will use this command
->sudo nmap -sV -sC -oN nmap.out 10.10.76.108
+```$ sudo nmap -sV -sC -oN nmap.out 10.10.76.108```
+
 ![2023-07-26 11_10_59-Practical Ethical Hacking ctb - F__PROGRAM FILES(DONT TOUCH)_CherryTree - Cherry](https://github.com/zeyadtarekXx/Attractive-Directory-Writeup/assets/61972622/3968b60f-aa8b-4ab2-a0be-76d4c2c1dd3b)
 
 Upon conducting our nmap enumeration, we have discovered a multitude of services running on the target machine, each playing a unique role in its setup. The identified services include DNS, IIS (Internet Information Services), Kerberos, RPC (Remote Procedure Call), NetBIOS, and the prominent Active Directory among others
